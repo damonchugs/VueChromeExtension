@@ -14,5 +14,9 @@ module.exports = {
         }
       }
     }
-  }
+  },
+  devServer:{
+    open: true,//服务开启后直接在浏览器中打开主页面
+    port: 4369,//端口号
+  },
 };
